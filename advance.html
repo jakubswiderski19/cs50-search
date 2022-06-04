@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Advance</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid vh-100">
+      <div class="row h-25 align-items-start justify-content-end">
+        <div class="col-2 d-flex justify-content-end flex-gap-3">
+          <a href="index.html" class="m-4">Back to Google</a>
+        </div>
+      </div>
+      <div class="row justify-content-start h-75 align-items-start">
+        <div class="col-6">
+          <form action="https://www.google.com/search">
+            <div class="mb-3 row">
+              <label for="q" class="col-sm-2 col-form-label fw-lighter"
+                >all these words:</label
+              >
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="q" name="q" />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="as_epq" class="col-sm-2 col-form-label fw-lighter"
+                >this exact word or phrase:</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="as_epq"
+                  name="as_epq"
+                />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="as_oq" class="col-sm-2 col-form-label fw-lighter"
+                >any of these words:</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="as_oq"
+                  name="as_oq"
+                />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label for="as_eq" class="col-sm-2 col-form-label fw-lighter"
+                >none of these words:</label
+              >
+              <div class="col-sm-10">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="as_eq"
+                  name="as_eq"
+                />
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="Advance search"
+              class="btn btn-primary align-self-end"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
